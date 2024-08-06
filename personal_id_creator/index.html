@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Card Generator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ID Card Generator</h1>
+        <form id="idForm">
+            <label for="name">
+                Name:
+            </label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="idNumber">
+                ID Number:
+            </label>
+            <input type="text" id="idNumber" name="idNumber" required><br><br>
+            <label for="department">
+                Department:</label>
+            <input type="text" id="department" name="department" required><br><br>
+            <button type="submit">Generate ID Card</button>
+        </form>
+
+        <div id="idCard" class="id-card">
+            <h2>your new ID Card</h2>
+            <p><strong>Name:</strong> <span id="cardName"></span></p>
+            <p><strong>ID Number:</strong> <span id="cardIdNumber"></span></p>
+            <p><strong>Department:</strong> <span id="cardDepartment"></span></p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

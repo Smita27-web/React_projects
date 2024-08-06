@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-image: url("blue.jpg");
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #7b6963;
+}
+
+.container {
+    text-align: center;
+    background:#c4c041;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-bottom: 0px;
+    padding: 20px;
+    border: 2px solid #1b8e19;
+}
+
+.id-card {
+    margin-top: 20px;
+    background-color: burlywood;
+    padding: 50px;
+    border: 2px solid #d50e0e;
+    display: none; 
+}
+
+.id-card h2 {
+    margin-top: 90;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #1d6cc0;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #607a95;
+}
+
